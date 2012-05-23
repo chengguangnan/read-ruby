@@ -123,17 +123,14 @@ task :html => EX_HTML
 # ToC as well, so we copy that, too. Lastly, we need to highlight the examples
 # contained in the newly-generated HTML file.
 
+
+sh "mkdir -p out/ref"
+
 HTML.zip(SRC_XML).each_with_index do |(html, src), i|
   desc "XSLT #{src} to #{html}"
-  rule html => src do
-    XSLTPROC[HTML_XSL] if uptodate?(src, [BUILD_HTML[i]])
-    cp BUILD_HTML[i], html
-    cp TOC_BUILD, TOC_OUT unless uptodate?(TOC_OUT, SRC_XML << TOC_BUILD) 
-    Rake::Task[:fixup].tap do |t|
-      t.invoke(html)
-      t.reenable
-    end
-  end
+  XSLTPROC[HTML_XSL] if uptodate?(src, [BUILD_HTML[i]])
+  cp BUILD_HTML[i], html
+  cp TOC_BUILD, TOC_OUT unless uptodate?(TOC_OUT, SRC_XML << TOC_BUILD) 
 end
 
 # Minify the HTML files in OUT_DIR, plus TOC_OUT. Then produce a gzipped
