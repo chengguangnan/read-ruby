@@ -34,7 +34,7 @@
 	  <header>
 	    <img src="/small-strawberry" alt="small strawberry" width="197" height="216"/>
 	    <h1><xsl:value-of select="d:title"/></h1>
-	    
+
 	    <p><em>Very</em> early draft of a book about version 1.9 of the Ruby
 	    programming language, released under a <a 
 	    href="//creativecommons.org/licenses/by-nc-sa/2.0/uk/" 
@@ -42,9 +42,8 @@
             href="//www.flickr.com/photos/matthiasr/">Matthias
 	    Richwin</a></small> <xsl:call-template name="search"/></p>
 	    <ul>
-	      <li><a href="mailto:runrun@runpaint.org">E-mail</a> author.</li>
-	      <li>Browse <a href="//github.com/runpaint/read-ruby">source</a>.</li>
-	      <li>Submit <a href="//github.com/runpaint/read-ruby/issues">bug report</a>.</li>
+	      <li>Browse <a href="//github.com/guangnan/read-ruby">source</a>.</li>
+	      <li>Submit <a href="//github.com/guangnan/read-ruby/issues">bug report</a>.</li>
 	    </ul>
 	  </header>
 	  

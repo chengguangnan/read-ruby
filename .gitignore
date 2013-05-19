@@ -6,3 +6,4 @@ out/
 build/
 examples/*.html
 Gemfile.lock
+.DS_Store

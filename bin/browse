@@ -7,7 +7,7 @@ raise "Usage: #$0 <dir>" unless ARGV.size == 1
 OUT_DIR = Pathname(ARGV.first)
 
 enable :run
-set :public, OUT_DIR
+set :public_dir, OUT_DIR
 
 helpers do
   def show name

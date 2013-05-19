@@ -1,10 +1,9 @@
-# -*-Ruby-*-
+require 'rubygems'
+require 'bundler/setup'
+require 'nokogiri'
 require 'rake/clean'
-require 'bundler'
 require 'yaml'
-require 'json'
-Bundler.require
-
+require 'coderay'
 # Directory containing the source XML files
 SRC_DIR = 'src'
 
@@ -139,9 +138,9 @@ end
   task :html => min
   desc "Minify and compress #{html}"
   rule min => html do
-    open("#{html}.min", ?w){|f| f << HTML5.minify(File.read html)}
-    mv "#{html}.min", html
-    sh "gzip -cn #{html} >#{min}"
+    #open("#{html}.min", ?w){|f| f << HTML5.minify(File.read html)}
+    #mv "#{html}.min", html
+    #sh "gzip -cn #{html} >#{min}"
   end
 end
 
