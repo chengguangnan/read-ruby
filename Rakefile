@@ -4,6 +4,7 @@ require 'nokogiri'
 require 'rake/clean'
 require 'yaml'
 require 'coderay'
+require 'mechanize'
 # Directory containing the source XML files
 SRC_DIR = 'src'
 
@@ -69,7 +70,7 @@ CODERAY = '<a href=/examples/%s><pre class=ruby><code>%s</code></pre></a>'
 # (To validate locally, set the 'docbook' symlink to point to the system
 # DocBook schema/stylesheet directory. On Debian and its derivatives this is
 # /usr/share/xml/docbook/)
-DOCBOOK_RNG = 'docbook/schema/rng/5.0/docbookxi.rng'
+DOCBOOK_RNG = 'docbook.rng'
 
 # Globs that should not be rsync'd
 RSYNC_EXCLUDE = %w{*examples/*html *examples/.*}
