@@ -29,13 +29,13 @@
 	<xsl:call-template name="embed-css">
 	  <xsl:with-param name="css">main index</xsl:with-param>
 	</xsl:call-template>
-	<title>Read Ruby 1.9: Free Ebook About the Ruby Programming Language</title>
+	<title>Read Ruby: Free Ebook About the Ruby Programming Language</title>
 	<body>
 	  <header>
 	    <img src="/small-strawberry" alt="small strawberry" width="197" height="216"/>
 	    <h1><xsl:value-of select="d:title"/></h1>
 
-	    <p><em>Very</em> early draft of a book about version 1.9 of the Ruby
+	    <p><em>Very</em> early draft of a book about the Ruby
 	    programming language, released under a <a 
 	    href="//creativecommons.org/licenses/by-nc-sa/2.0/uk/" 
             rel="license">Creative Commons license</a>. <small>Photo credit: <a 

@@ -6,7 +6,7 @@
     <form action="//www.google.com/cse">
       <input type="hidden" 
 	     name="cx" 
-	     value="012927387456573046134:ide2kmn7ihk"/>
+	     value="008715134406468895019:pzmy078nmf8"/>
       <input type="hidden" name="ie" value="UTF-8"/>
       <input type="search" name="q" size="25" placeholder="Search the book…"/>
     </form>

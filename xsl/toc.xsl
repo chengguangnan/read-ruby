@@ -19,7 +19,7 @@
 	<xsl:call-template name="embed-css">
 	  <xsl:with-param name="css">toc page</xsl:with-param>
 	</xsl:call-template>
-	<title>Table of Contents (Read Ruby 1.9)</title>
+	<title>Table of Contents</title>
 	<body>
 	  <xsl:call-template name="header">
 	    <xsl:with-param name="title">Contents</xsl:with-param>
