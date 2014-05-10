@@ -42,8 +42,8 @@
             href="//www.flickr.com/photos/matthiasr/">Matthias
 	    Richwin</a></small> <xsl:call-template name="search"/></p>
 	    <ul>
-	      <li>Browse <a href="//github.com/guangnan/read-ruby">source</a>.</li>
-	      <li>Submit <a href="//github.com/guangnan/read-ruby/issues">bug report</a>.</li>
+	      <li>Browse <a href="//github.com/chengguangnan/read-ruby">source</a>.</li>
+	      <li>Submit <a href="//github.com/chengguangnan/read-ruby/issues">bug report</a>.</li>
 	    </ul>
 	  </header>
 	  
