@@ -203,12 +203,6 @@
           </listitem>
         </varlistentry>
         <varlistentry>
-          <term><literal>redo</literal></term>
-          <listitem>
-            <para>Jump to the beginning of the <literal>Proc</literal>.</para>
-          </listitem>
-        </varlistentry>
-        <varlistentry>
           <term><literal>retry</literal></term>
           <listitem>
             <para>Always raises a <literal>LocalJumpError</literal>.</para>
