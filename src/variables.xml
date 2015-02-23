@@ -518,7 +518,7 @@
   <sect1 xml:id="var.assignment">
     <title>Assignment</title>
 
-    <para>An assignment expression sets the value of one or more <link linkend="var.lvalues">lvalues</link> to their corresponding <link linkend="var.rvalues">rvalues</link>. Its general form is <literal><replaceable>lvalues</replaceable> = <replaceable>rvalues</replaceable></literal>: one or more lvalues, an equals sign (<literal>U＋003D</literal>, then one or more rvalues.</para>
+    <para>An assignment expression sets the value of one or more <link linkend="var.lvalues">lvalues</link> to their corresponding <link linkend="var.rvalues">rvalues</link>. Its general form is <literal><replaceable>lvalues</replaceable> = <replaceable>rvalues</replaceable></literal>: one or more lvalues, an equals sign (<literal>U＋003D</literal>), then one or more rvalues.</para>
 
     <sect2 xml:id="var.lvalues">
       <title>Lvalues</title>
