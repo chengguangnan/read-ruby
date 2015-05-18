@@ -2,7 +2,7 @@ About this Fork
 ===============
 
 The original author of this book is out of touch for years. I've decided
-to keep hosting it. The latest version can be viewed at [readruby.io](http://readruby.io).
+to keep hosting it. The latest version can be viewed at [http://readruby.rubycodesearch.com/](http://readruby.rubycodesearch.com/).
 
 I've modified the code to make it work with ruby 2.0.0. To preview it locally:
 
