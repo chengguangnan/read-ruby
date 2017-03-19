@@ -1,10 +1,7 @@
 About this Fork
 ===============
 
-The original author of this book is out of touch for years. I've decided
-to keep hosting it. The latest version can be viewed at [http://readruby.chengguangnan.com/](http://readruby.chengguangnan.com/).
-
-I've modified the code to make it work with ruby 2.0.0. To preview it locally:
+The original author of this book is out of touch for years. I've modified the code to make it work with ruby 2.0.0. To preview it locally:
 
 * Run `rake clean html browse`
 
